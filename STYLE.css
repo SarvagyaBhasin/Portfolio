@@ -1,0 +1,55 @@
+h1{
+    color:red;
+    margin: 30px;
+}
+.Header{
+    background-color:Yellow ;
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+}
+.Menu{
+    margin-right: 30px;
+    padding-right: 20px;
+}
+.Menu a{
+    margin-left: 20px;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: red;
+}
+.Item{
+    position: relative;
+}
+.Item p{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.Item:hover p{
+    opacity: 1;
+}
+.Item:hover img{
+    opacity: 0.33;
+}
+.Grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+}
+.Footer{
+    display:flex;
+    justify-content:flex-end;
+}
+p,h2{
+    text-align:center;
+}
+body{
+    background-color:#76D7C4;
+
+}
